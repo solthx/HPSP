@@ -11,5 +11,12 @@
 
     <artifactId>hpsp-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.shock</groupId>
+            <artifactId>hpsp-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

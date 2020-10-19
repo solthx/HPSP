@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hpsp-web</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.2.9.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.shock</groupId>
+            <artifactId>hpsp-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
