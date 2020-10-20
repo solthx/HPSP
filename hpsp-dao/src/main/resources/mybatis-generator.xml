@@ -29,7 +29,7 @@
         <!-- 配置mapper对应的java映射 -->
         <javaClientGenerator targetPackage="com.shock.hpsp.dao.mapper" targetProject="src/main/java" type="XMLMAPPER"/>
 
-        <table tableName="task_info"></table>
+        <table tableName="pet_info"></table>
 <!--        <table tableName="users"></table>-->
 
     </context>
